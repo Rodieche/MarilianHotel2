@@ -1,0 +1,139 @@
+body{
+	background-image:url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #009688;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/*	FUENTES	*/
+
+.radley{
+	font-family: 'Radley', serif;
+}
+
+.lobster{
+	font-family: 'Lobster', cursive;
+}
+
+/* ########## */
+
+
+.mediano{
+	font-size: 42px;
+}
+
+.chico{
+	font-size: 30px;
+}
+
+.muy-chico{
+	font-size: 1.5em;
+}
+
+.no-margin-upside{
+	margin-top: 0px;
+}
+
+.margin-top{
+	margin-top: 20px;
+}
+
+.margin-top-big{
+	margin-top: 3.5em;
+}
+
+.margin-left{
+	margin-left: 20px;
+}
+
+.margin-right{
+	margin-right: 20px;
+}
+
+.margin-bottom{
+	margin-bottom: 20px;
+}
+
+.margin-bottom-big{
+	margin-bottom: 40px;
+}
+
+.no-margin-top{
+	margin-top: 0px;
+}
+
+.no-margin-bottom{
+	margin-bottom: 0px;
+}
+
+.imagen-chica{
+	width: 40px;
+	height: 40px;
+}
+
+/*	RETRASOS	*/
+
+.retraso-1{
+	-webkit.animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.retraso-2{
+	-webkit.animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+.retraso-3{
+	-webkit.animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+.retraso-4{
+	-webkit.animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	animation-delay: 4s;
+}
+
+.retraso-5{
+	-webkit.animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	animation-delay: 5s;
+}
+
+.redondear{
+	border-radius: 102px 102px 102px 102px;
+	-moz-border-radius: 102px 102px 102px 102px;
+	-webkit-border-radius: 102px 102px 102px 102px;
+	border: 5px solid #aed581;
+}
+
+.material-icons.white { 
+	color: #FFFFFF; 
+}
+
+.be-rosado{
+	background-color: #5C0120;
+}
+
+.padding-up{
+	padding-top: 30px;
+}
+
+h3{
+	color: #000000;
+}

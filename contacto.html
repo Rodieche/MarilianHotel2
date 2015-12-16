@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hotel Marilian 2</title>
+	<!-- Import Google Icon Fonts -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Materialize.css -->
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<!-- Animated.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Main.css -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Navegador optimizado para moviles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Icono de navegador -->
+	<link rel="icon" type="image/ico" href="img/marilian_logo.ico">
+	<!-- RADLEY FONT : GOOGLE FONT -->
+	<link href='https://fonts.googleapis.com/css?family=Radley:400,400italic' rel='stylesheet' type='text/css'>
+	<!-- LOBSTER FONT -->
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <!-- ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body style="background-image:url(img/contacto.jpg);">
+
+     <!-- NAV -->
+     
+  <div class="navbar-fixed animated fadeIn retraso-1 z-depth-4 margin-top">
+    <nav>
+      <div class="nav-wrapper be-rosado lighten-3">
+        <a href"index.html" class="brand-logo radley white-text margin-left">
+          <img src="img/marilian_logo.ico" width="40%" height="40%" style="float:left;">
+          <i> Hotel Marilian 2</i>
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse full">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down margin-right">
+          <li>
+            <a href="index.html" class="white-text"><b>Inicio</b></a>
+          </li>
+          <li>
+            <a href="servicios.html" class="white-text"><b>Servicios</b></a>
+          </li>
+          <li>
+            <a href="habitaciones.html" class="white-text"><b>Habitaciones</b></a>
+          </li>
+          <li>
+            <a href="confiteria.html" class="white-text"><b>Confiteria</b></a>
+          </li>
+          <li>
+            <a href="promociones.html" class="white-text"><b>Promociones</b></a>
+          </li>
+          <li>
+            <a href="galeria.html" class="white-text"><b>Galeria</b></a>
+          </li>
+          <li>
+            <a href="contacto.html" class="white-text"><b><em>Contacto</em></b></a>
+          </li>
+        </ul>
+        <ul class="side-nav hide-on-large-only brown lighten-3" id="mobile-demo">
+              <li><a href="index.html" class="black-text center-align"><b>Inicio</b></a></li>
+              <li><a href="servicios.html" class="black-text center-align"><b>Servicios</b></a></li>
+            <li><a href="habitaciones.html" class="black-text center-align"><b>Habitaciones</b></a></li>
+            <li><a href="confiteria.html" class="black-text center-align"><b>Confiteria</b></a></li>
+            <li><a href="promociones.html" class="black-text center-align"><b>Promociones</b></a></li>
+            <li><a href="galeria.html" class="black-text center-align"><b>Galeria</b></a></li>
+            <li><a href="contacto.html" class="black-text center-align"><b>Contacto</b></a></li>
+          </ul>
+      </div>
+    </nav>
+  </div>  
+
+  
+  <h1 class="center-align lobster teal-text">Contacto</h1> 
+  <div class="container hide-on-small-only margin-top">
+  <div class="col s12 l12 m12" align="center">
+    <iframe width="740" height="580" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-65.41281223297119%2C-24.793564835693115%2C-65.40962040424347%2C-24.791728850742956&amp;layer=mapnik&amp;marker=-24.792646846614932%2C-65.41121631860733" style="border: 1px solid black"></iframe><br/>
+    <h3 class="center-align teal-text text-lighten-1">Alberdi 223 - Salta Capital - Argentina</h3>
+  </div>
+  </div>
+  <div class="container margin-bottom">
+        <p class="teal-text text-lighten-1" align="center">
+          <img src="img/fijo.png" class="imagen-chica" align="center"><b class="light-green-text"> Telefono y Fax : </b>54 - 0387 - 4210394 / 54 - 0387 - 4218184
+        </p>
+        <p class="teal-text text-lighten-1" align="center">
+          <img src="img/mail.ico" class="imagen-chica" align="center"><b class="light-green-text"> Reservas : </b>hotelmarilian2@gmail.com
+        </p>
+        <p class="teal-text text-lighten-1" align="center">
+          <img src="img/contact-icon.png" class="imagen-chica" align="center"><b class="light-green-text"> Contacto : </b>gerenciamarilian2@gmail.com
+        </p>
+  </div>
+
+  <div class="row container">
+  <section class=”formulario”>
+    <form class="col s12" action="mailto:hotelmarilian2@gmail.com" method="POST" enctype="text/plain" onsubmit="return validar ()">
+      <div class="row">
+        <div class="input-field col s6">
+        <i class="material-icons md-light prefix">account_circle</i>
+          <label for="nombre">Nombre: </label></br>
+          <input id="nombre" type="text" class="validate white-text" name="nombre">
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons md-light prefix">email</i>
+          <label for="email">Email : </label></br>
+          <input id="email" placeholder="ejemplo@correo.com" type="email" class="validate white-text" name="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <label for="mensaje">Mensaje : </label></br>
+          <textarea id="mensaje" name="mensaje" class="materialize-textarea white-text validate"></textarea>
+        </div>
+      </div>
+      <div class="right-align margin-bottom">
+      <button class="btn waves-effect waves-light" type="submit" name="submit" id="submit">Enviar
+      <i class="material-icons right">send</i>
+      </button>
+      </div>
+    </form>
+  </section>
+  </div>
+
+     <footer class="be-rosado padding-up">
+          <div class="container">
+            <div class="row">
+              <div class="col l12 s12">
+                      <div class="col l6 center-align">
+                        <a href="https://www.facebook.com/profile.php?id=100010528988826" target="_blank">
+                         <img src="img/redes/facebook_circle.png" width="30%" height="30%" align="center">
+                          <h5 class="white-text">Miranos en facebook</h5>
+                        </a>
+                      </div>
+<!--
+                      <div class="col l4 center-align">
+                        <a href="#!">
+                          <img src="img/redes/google_circle.png" width="30%" height="30%" align="center">
+                          <h5 class="white-text">Buscanos en Google</h5>
+                        </a>
+                      </div>
+-->
+                      <div class="col l6 center-align">
+                        <a href="https://twitter.com/hotel_ii" target="_blank">
+                          <img src="img/redes/twitter_circle.ico" width="30%" height="30%" align="center">
+                          <h5 class="white-text">Seguinos en Twitter</h5>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright be-rosado">
+            <div class="container">
+            © 2015 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">WebMaker</a>
+            </div>
+          </div>
+        </footer>
+
+</body>
+</html>
